@@ -59,7 +59,7 @@ validates the submitted form, renames the uploaded image in a secure way, stores
 inserts the corresponding record in the database, prevents double submission, and eventually modifies
 the form itself by adding error messages if the data submitted by the user does not pass validation.
 
-This code embeds a fully working wiki with tags, search, tag cloud, permissions, media attachments, and oembed support:
+This code embeds a fully working wiki with tags, search, tag cloud, permissions, media attachments, and oEmbed support:
 
 ``
 def index(): return auth.wiki()

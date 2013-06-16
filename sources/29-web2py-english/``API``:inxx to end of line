@@ -3,7 +3,7 @@
 
 ### About Python
 Python is a general-purpose high-level programming language.
-Its design philosophy emphasizes programmer productivity and code readability. It has a minimalist core syntax with very few basic commands and simple semantics, but it also has a large and comprehensive standard library, including an Application Programming Interface (API) ``API``:inxx to many of the underlying operating system (OS) functions. Python code, while minimalist, defines built-in objects such as linked lists (``list``), tuples (``tuple``), hash tables (``dict``), and arbitrarily long integers (``long``).
+Its design philosophy emphasizes programmer productivity and code readability. It has a minimalist core syntax with very few basic commands and simple semantics, but it also has a large and comprehensive standard library, including an Application Programming Interface (API) to many of the underlying operating system (OS) functions. ``API``:inxx Python code, while minimalist, defines built-in objects such as linked lists (``list``), tuples (``tuple``), hash tables (``dict``), and arbitrarily long integers (``long``).
 
 Python supports multiple programming paradigms, including object-oriented (``class``), imperative (``def``), and functional (``lambda``) programming. Python has a dynamic type system and automatic memory management using reference counting (similar to Perl, Ruby, and Scheme).
 

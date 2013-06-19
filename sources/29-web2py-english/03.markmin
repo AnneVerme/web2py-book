@@ -398,9 +398,14 @@ def first():
     return dict(form=form)
 
 def second():
-    name = request.vars.visitor_name or redirect(URL('first'))
+    name = request.vars.name or redirect(URL('first'))
     return dict(name=name)
 ``:code
+
+and the "default/second.html" view
+
+{{extend 'layout.html'}}
+<h1>Hello {{=name or anonymous}}</h1>
 
 Mind that in general it is not a good idea to pass data from one action to another using the URL. It makes it harder to secure the application. It is safer to store the data in a session.
 

@@ -577,6 +577,8 @@ You can select a different set of records by editing the DAL query and pressing 
 
 To edit or delete a single record, click on the record id number.
 
+Now go back to Available Databases and Tables and try to insert a new post record:
+
 Because of the ``IS_IN_DB`` validator, the reference field "image_id" is rendered by a drop-down menu. The items in the drop-down are stored as keys (``db.image.id``), but are represented by their ``db.image.title``, as specified by the validator.
 
 Validators are powerful objects that know how to represent fields, filter field values, generate errors, and format values extracted from the field.

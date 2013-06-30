@@ -1008,7 +1008,7 @@ Lines 13, 20 define and process create forms for a new page and a new comment an
 
 Line 28 defines and processes an update form for a wiki page.
 
-Line 38 creates a ``grid`` object that allows to view, add and update the comments linked to a page.
+Line 38 creates a ``grid`` object that allows to view, add and update the documents linked to a page.
 
 Some magic happens in line 51. The ``onkeyup`` attribute of the INPUT tag "keyword" is set. Every time the visitor releases a key, the JavaScript code inside the ``onkeyup`` attribute is executed, client-side. Here is the JavaScript code:
 ``

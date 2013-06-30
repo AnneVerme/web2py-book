@@ -1132,12 +1132,12 @@ which generates the following Ajax search form:
 
 You can also try to call the callback action directly by visiting, for example, the following URL:
 ``
-http://127.0.0.1:8000/mywiki/default/callback?keyword=wiki
+http://127.0.0.1:8000/mywiki/default/callback?keyword=my
 ``:code
 
 If you look at the page source you see the HTML returned by the callback:
 ``
-<ul><li><a href="/mywiki/default/show/4">I made a Wiki</a></li></ul>
+<ul><li><a href="/mywiki/default/show/1">My Main Page</a></li></ul>
 ``:code
 
 ``rss``:inxx
